@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif
+  ;
+  }
+ 
+  
+hr {
+  border: none;
+  border-top: 3px solid black;
+  width: 97%;
+  margin-top:-10px;
+}
+.whole {
+  background-color: white;
+  width: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 50px;
+  border: 3px solid black;
+  max-width: 720px;
+}
+
+#name {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+#job {
+  font-size: 1.3em;
+  color:green;
+  font-weight: 500;
+}
+
+#address {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+#skills {
+  font-size: 1.3em;
+  color:green;
+  font-weight: 500;
+}
+
+
+#edu {
+  font-size: 1.3em;
+  color:green;
+  font-weight: 500;
+}
+
+#school {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: blue;
+}
+
+#exp {
+  font-size: 1.3em;
+  color:green;
+  font-weight: 500;
+}
+
+#comp {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: blue;
+}
+
+ul {
+  
+  padding: 20px;
+  margin-top: -10px;
+}
+
+#across {
+  font-size: 1.3em;
+  color:green;
+  font-weight: 500;
+}
+
+#mail {
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 481px) {
+    .whole {
+        padding: 50px;
+    }
+
+    #name {
+        font-size: 2em;
+    }
+
+    #job {
+        font-size: 1.1em;
+    }
+}
+  
